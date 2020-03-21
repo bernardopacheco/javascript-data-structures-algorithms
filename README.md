@@ -1,2 +1,5 @@
-# javascript-data-structures-algorithms
-JavaScript implementations of common data structure and algorithm concepts.
+# Data Structures and Algorithms in JavaScript
+
+This repository contains common data structures and algorithms implemented in JavaScript. I keep it for learning purposes.
+
+> Please, feel free to learn, read, and use any code from this website.
