@@ -1,0 +1,25 @@
+{
+  "name": "javascript-data-structures-algorithms",
+  "description": "JavaScript implementation of common data structures and algorithms.",
+  "author": "Bernardo Pacheco",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardopacheco/javascript-data-structures-algorithms.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardopacheco/javascript-data-structures-algorithms/issues"
+  },
+  "homepage": "https://github.com/bernardopacheco/javascript-data-structures-algorithms#readme",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
