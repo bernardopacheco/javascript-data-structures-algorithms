@@ -7,3 +7,14 @@ This repository contains common data structures and algorithms implemented in Ja
 ## Algorithms
 
 * [Quicksort](src/algorithms/quicksort/)
+
+## How to use this repository
+
+**Install all dependencies**
+```
+npm install
+```
+
+**Run all tests**
+```
+npm test
