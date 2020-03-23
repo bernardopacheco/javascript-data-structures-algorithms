@@ -1,4 +1,4 @@
-# Data Structures and Algorithms in JavaScript
+# Data Structures and Algorithms in JavaScript :rocket:
 
 [![Build Status](https://travis-ci.org/bernardopacheco/javascript-data-structures-algorithms.svg?branch=master)](https://travis-ci.org/bernardopacheco/javascript-data-structures-algorithms)
 [![codecov](https://img.shields.io/codecov/c/github/bernardopacheco/javascript-data-structures-algorithms)](https://codecov.io/gh/bernardopacheco/javascript-data-structures-algorithms)
