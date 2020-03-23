@@ -4,6 +4,10 @@ This repository contains common data structures and algorithms implemented in Ja
 
 > Please, feel free to learn, read, and use any code from this website.
 
+## Data Structures
+
+* [Linked List](src/data-structures/linked-list/)
+
 ## Algorithms
 
 * [Quicksort](src/algorithms/quicksort/)
