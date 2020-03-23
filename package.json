@@ -4,7 +4,8 @@
   "author": "Bernardo Pacheco",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --config jestconfig.json",
+    "coverage": "codecov"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "babel-jest": "^25.1.0",
+    "codecov": "^3.6.5",
     "jest": "^25.1.0"
-  }
+  },
+  "dependencies": {}
 }
