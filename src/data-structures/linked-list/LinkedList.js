@@ -40,6 +40,8 @@ export default class LinkedList {
 
       current = current.next;
     }
+
+    return null;
   }
 
   delete(comparator) {

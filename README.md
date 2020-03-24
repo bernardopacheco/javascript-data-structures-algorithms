@@ -10,6 +10,7 @@ This repository contains common data structures and algorithms implemented in Ja
 ## Data Structures
 
 * [Linked List](src/data-structures/linked-list/)
+* [Hash Map](src/data-structures/hash-map/)
 
 ## Algorithms
 
