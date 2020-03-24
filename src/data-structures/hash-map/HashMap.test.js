@@ -13,9 +13,14 @@ test('should create hash map of certain size', () => {
   expect(anotherHashMap.size).toBe(32);
 });
 
-test('should add and read element in hash map', () => {
+test('should add and get element in hash map', () => {
   hashMap.set('foo', 'bar');
   expect(hashMap.get('foo')).toBe('bar');
+});
+
+test('should get null for an unknown element in hash map', () => {
+  hashMap.set('foo', 'bar');
+  expect(hashMap.get('unknown')).toBeNull();
 });
 
 test('should generate a hash from a string key', () => {

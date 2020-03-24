@@ -17,6 +17,7 @@ export default class QuickSort {
         right--;
       }
     
+      /* istanbul ignore else */
       if (left <= right) {
         swap(array, left, right);
         left++;

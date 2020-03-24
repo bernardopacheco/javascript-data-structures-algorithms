@@ -21,10 +21,12 @@ test('should prepend nodes to linked list', () => {
 
 test('should delete node in linked list', () => {
   linkedList.append(1);
-  linkedList.append({ 'key': 'foo' });
+  linkedList.append(2);
   linkedList.append(3);
-  linkedList.delete((node) => node.key === 'foo');
-  expect(linkedList.toString()).toBe('1,3');
+  linkedList.append(4);
+  linkedList.append(5);
+  linkedList.delete((node) => node === 4);
+  expect(linkedList.toString()).toBe('1,2,3,5');
 });
 
 test('should find node in linked list', () => {
