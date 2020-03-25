@@ -13,7 +13,7 @@ test('should create hash map of certain size', () => {
   expect(anotherHashMap.size).toBe(32);
 });
 
-test('should add and get element in hash map', () => {
+test('should add element in hash map', () => {
   hashMap.set('foo', 'bar');
   expect(hashMap.get('foo')).toBe('bar');
 });
@@ -40,4 +40,11 @@ test('should delete element in hash map', () => {
   expect(hashMap.has('foo')).toBeTruthy();
   hashMap.delete('foo');
   expect(hashMap.has('foo')).toBeFalsy();
+});
+
+test('should update value if key already exists in hash map', () => {
+  hashMap.set('foo', 'bar');
+  hashMap.set('foo', 'baz');
+  expect(hashMap.get('foo')).toBe('baz');
+  expect(hashMap.getKeys().length).toBe(1);
 });
