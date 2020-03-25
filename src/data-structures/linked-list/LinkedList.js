@@ -3,6 +3,7 @@ import LinkedListNode from './LinkedListNode';
 export default class LinkedList {
   constructor() {
     this.head = null;
+    this.tail = null;
   }
 
   append(value) {
@@ -10,16 +11,12 @@ export default class LinkedList {
 
     if (this.head === null) {
       this.head = newNode;
+      this.tail = newNode;
       return;
     }
 
-    let current = this.head;
-
-    while (current.next !== null) {
-      current = current.next;
-    }
-
-    current.next = newNode;
+    this.tail.next = newNode;
+    this.tail = newNode;
   }
 
   prepend(value) {
