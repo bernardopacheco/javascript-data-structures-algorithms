@@ -9,6 +9,7 @@ This repository contains common data structures and algorithms implemented in Ja
 
 ## Data Structures
 
+* [Binary Search Tree](src/data-structures/binary-search-tree/)
 * [Linked List](src/data-structures/linked-list/)
 * [Hash Map](src/data-structures/hash-map/)
 
