@@ -13,6 +13,7 @@ This repository contains common data structures and algorithms implemented in Ja
 * [Hash Map](src/data-structures/hash-map/)
 * [Heap](src/data-structures/heap/) - min and max heap versions
 * [Linked List](src/data-structures/linked-list/)
+* [Priority Queue](src/data-structures/priority-queue/)
 
 ## Algorithms
 
