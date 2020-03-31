@@ -7,9 +7,9 @@ beforeEach(() => {
 });
 
 test('should sort array of integers', () => {
-  let array = [6, 3, 4, 1, 2, 5, 1];
+  let array = [42, 43, 28, 7, 12];
   quickSort.sort(array, 0, array.length - 1);
-  expect(array).toEqual([1, 1, 2, 3, 4, 5, 6]);
+  expect(array).toEqual([7, 12, 28, 42, 43]);
 });
 
 test('should sort array of strings', () => {
