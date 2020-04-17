@@ -17,6 +17,7 @@ This repository contains common data structures and algorithms implemented in Ja
 
 ## Algorithms
 
+* [Merge Sort](src/algorithms/mergesort/)
 * [Quicksort](src/algorithms/quicksort/)
 
 ## How to use this repository
